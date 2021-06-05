@@ -1,0 +1,48 @@
+**********create Branch & marge***************
+
+cd singaporegit/
+   35  git log --oneline
+   36  git branch
+   37  git branch branch1
+   38  ls
+   39  git branch
+   40  ls
+   41  git checkout branch1
+   42  git branch
+   43  ls
+   44  git log --oneline
+   45  cat >branch1file
+   46  ls
+   47  git add .
+   48  git commit -m "branch first"
+   49  git log --oneline
+   50  git show (commit id like-3c052d3)
+   51  git checkout master
+   52  git branch
+   53  git log ---oneline
+   55  ls
+   56  git log --oneline
+   57  ls
+   58  git branch
+   59  git checkout branch1
+   60  cat >seconffile
+   61  ls
+   62  git checkout master
+   63  ls
+   64  git add .
+   66  git checkout branch1
+   67  git add .
+   68  git commit -m "seccot"
+   70  git log --oneline
+   71  git checkout master
+   72  ls
+******* merge commands******
+   
+   76  git branch
+   75  git log --oneline
+   76  git merge branch1
+   77  ls
+   78  git log --oneline
+   79  git push origin master
+   80  git push origin master
+
